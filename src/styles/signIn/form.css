@@ -1,0 +1,18 @@
+.logo {
+  width: 270px;
+  height: 54px;
+}
+.showpassword {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
